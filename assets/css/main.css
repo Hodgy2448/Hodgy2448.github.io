@@ -4687,3 +4687,81 @@ input, select, textarea {
 		}
 
 	}
+
+	#arrow-top{
+		color: #ffffff;
+		padding: 8rem 4rem 6rem 4rem ;
+		-moz-align-items: center;
+		-webkit-align-items: center;
+		-ms-align-items: center;
+		align-items: center;
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display: flex;
+		-moz-flex-direction: column;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		-moz-justify-content: -moz-flex-end;
+		-webkit-justify-content: -webkit-flex-end;
+		-ms-justify-content: -ms-flex-end;
+		justify-content: flex-end;
+		-moz-transition: opacity 1s ease, -moz-transform 1s ease;
+		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
+		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
+		transition: opacity 1s ease, transform 1s ease;
+		position: relative;
+		cursor: default;
+		text-align: center;
+		z-index: 1;
+	}
+	#arrow-top input, #arrow-top select, #arrow-top textarea {
+		color: #ffffff;
+	}
+
+	#arrow-top a {
+		color: #ffffff;
+		border-bottom-color: rgba(255, 255, 255, 0.5);
+	}
+
+		#arrow-top a:hover {
+			border-bottom-color: transparent;
+			color: #18bfef !important;
+		}
+		#arrow-top input[type="submit"],
+		#arrow-top input[type="reset"],
+		#arrow-top input[type="button"],
+		#arrow-top button,
+		#arrow-top .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px #ffffff;
+			color: #ffffff !important;
+		}
+
+			#arrow-top input[type="submit"]:hover,
+			#arrow-top input[type="reset"]:hover,
+			#arrow-top input[type="button"]:hover,
+			#arrow-top button:hover,
+			#arrow-top .button:hover {
+				box-shadow: inset 0 0 0 2px #18bfef;
+				color: #18bfef !important;
+			}
+
+			#arrow-top input[type="submit"].primary,
+			#arrow-top input[type="reset"].primary,
+			#inarrow-toptro input[type="button"].primary,
+			#arrow-top button.primary,
+			#arrow-top .button.primary {
+				background-color: #ffffff;
+				box-shadow: none;
+				color: #1e252d !important;
+			}
+
+				#arrow-top input[type="submit"].primary:hover,
+				#arrow-top input[type="reset"].primary:hover,
+				#arrow-top input[type="button"].primary:hover,
+				#arrow-top button.primary:hover,
+				#arrow-top .button.primary:hover {
+					background-color: #18bfef;
+				}
