@@ -4946,6 +4946,11 @@ body.is-preload #intro:not(.hidden)+#header+#nav {
 #techTable.table, th, td {
 	border: 1px solid black;
 	border-collapse: collapse;
+	text-align: center;
+  }
+  #techTable.th{
+	text-align: center;
+	
   }
 @media screen and (max-width: 600px) {
 	#techTable {
